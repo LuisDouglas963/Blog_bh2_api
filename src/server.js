@@ -10,7 +10,7 @@ const cors = require('cors');
 conectToDatabase();
 
 const app = express();
-const port = 3333; //Definindo porta
+const port = process.env.PORT || 3333; //Definindo porta
 
 app.use(cors());
 app.use(express.json()); //Fazendo o express "entender" arquivos .json
