@@ -10,7 +10,8 @@
     "uuid": "^8.3.2"
   },
   "scripts": {
-    "dev": "nodemon --watch src src/server.js"
+       "start": "nodemon --watch src src/server.js"
+
   },
   "devDependencies": {
     "dotenv": "^10.0.0",
